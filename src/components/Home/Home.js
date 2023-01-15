@@ -7,8 +7,8 @@ import { fetchAsyncMovies, fetchAsyncShows} from '../../features/movies/movieSli
 const Home = () => {
   const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(fetchAsyncMovies());
-    dispatch(fetchAsyncShows())
+    dispatch(fetchAsyncMovies('Love'));
+    dispatch(fetchAsyncShows('Love'))
 
   }, [dispatch])
   return (

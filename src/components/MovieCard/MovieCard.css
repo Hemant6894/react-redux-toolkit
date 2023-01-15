@@ -2,6 +2,9 @@
     background: #1a242f;
     cursor:pointer;
     transition: all 0.3s;
+    min-height: 30rem;
+    margin: 10px;
+
 }
 
 .card-item:hover{

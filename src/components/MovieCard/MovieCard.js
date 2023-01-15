@@ -4,6 +4,7 @@ import "./MovieCard.css"
 
 const MovieCard = (props) => {
   const {data} = props;
+  
   return (
     <div className="card-item">
       <Link to={`/movie/${data.imdbID}`}>
